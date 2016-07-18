@@ -1,0 +1,152 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="khwelatestrun.khwela.TrainTracking">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:id="@+id/Img_map"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginStart="36dp"
+            android:src="@mipmap/stations"
+            android:contentDescription="@string/map" />
+
+        <TableRow
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/Img_map"
+            android:layout_alignLeft="@+id/Img_map"
+            android:layout_alignStart="@+id/Img_map"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginStart="36dp"
+            android:id="@+id/tableRow">
+
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Train_number"
+                android:id="@+id/Train_number"
+                />
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Current_Time"
+                android:id="@+id/hours"
+                />
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/current_Date"
+                android:id="@+id/minutes"
+                />
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Estimated_time_of_arival"
+                android:id="@+id/Serconds"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tableRow"
+            android:layout_alignLeft="@+id/Img_map"
+            android:layout_alignStart="@+id/Img_map"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="36dp"
+            android:id="@+id/tableRow1">
+
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Train_number1"
+                android:id="@+id/Train_number1"
+                />
+
+            <AnalogClock
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/clock1"/>
+
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/minutes_1"/>
+
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:inputType="time"
+                android:ems="10"
+                android:id="@+id/seonds_1"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/tableRow1"
+            android:layout_alignLeft="@+id/Img_map"
+            android:layout_alignStart="@+id/Img_map"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="36dp"
+            android:id="@+id/tableRow2">
+
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Train_number"
+                android:id="@+id/Train_number2"
+                />
+
+            <AnalogClock
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/clock2"/>
+
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/minutes_2"/>
+
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:inputType="time"
+                android:ems="10"
+                android:id="@+id/seonds_2"/>
+        </TableRow>
+    </RelativeLayout>
+
+</ScrollView>

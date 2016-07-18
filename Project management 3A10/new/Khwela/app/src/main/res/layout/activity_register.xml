@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="khwelatestrun.khwela.Register">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/txtName"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/eName"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        tools:ignore="TextFields" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/txtDOB"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/eDOB"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        tools:ignore="TextFields" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/txtUser_name"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/eUsername"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        tools:ignore="TextFields" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/txtPassword"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/ePassword"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/txtConfirm"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/eConfirm"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:text="@string/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

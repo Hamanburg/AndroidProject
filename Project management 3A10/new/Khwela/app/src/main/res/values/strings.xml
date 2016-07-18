@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Khwela</string>
+    <string name="action_settingss">Settings</string>
+    <string name="title_activity_editprofile">Editprofile</string>
+    <string name="title_activity_alarm">Alarm</string>
+    <string name="title_activity_train_tracking">TrainTracking</string>
+    <string name="title_activity_recovery">Recovery</string>
+    <string name="title_activity_reset_password">Reset_password</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_chat_forum">ChatForum</string>
+
+    <string name="hello_world">txthello_world</string>
+
+    <string name="txtlogin">login</string>
+    <string name="txtlogout">logout</string>
+    <string name="txtID_number">ID_number</string>
+    <string name="txtName">Name</string>
+    <string name="txtUser_name">User_name</string>
+    <string name="txtPassword">Password</string>
+    <string name="txtConfirm_Password">Confirm_Password</string>
+    <string name="txtEmail_address">Email_address</string>
+    <string name="txtRegister">Register_Here</string>
+    <string name="txtOld_Password">Old Password</string>
+    <string name="txtNew_Password">New Password</string>
+    <string name="txtDOB">DOB</string>
+    <string name="txtConfirm">Confirm</string>
+    <string name="txtAbout_Us">About_Us</string>
+
+    <string name="btnContinue">Continue</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnReset_Password">Reset Password</string>
+    <string name="btnNext">Next</string>
+    <string name="btnPrevious">Previous</string>
+    <string name="btnRegister">Register</string>
+
+    <string name="imgalarm">Set Alarm</string>
+    <string name="imgbuy">Buy Ticket</string>
+    <string name="imgtrack">Track Train</string>
+    <string name="imgchart">Chart</string>
+    <string name="imgAbout_us">About us</string>
+    <string name="imgnotification">Notifications</string>
+    <string name="title_activity_ticket">Ticket</string>
+    <string name="title_activity_navigation_bar">NavigationBar</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+
+
+    <string name="action_example">Example action</string>
+    <string name="Train_number">Train_number1</string>
+    <string name="map">map</string>
+    <string name="Current_Time">Current_Time</string>
+    <string name="Train_number1">Train_number1</string>
+    <string name="Estimated_time_of_arival">Estimated_time_of_arival</string>
+    <string name="current_Date">current_Date</string>
+    <string name="comment">comment</string>
+    <string name="chart_string">Hey you welcome to our local user friendly user inter action chart system , just pst any questions you have and we will respond to them thank you ;-)</string>
+    <string name="post">post</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_chat">Chat</string>
+
+    <string-array name="Choose_Your_Fare_Type">
+        <item>One way</item>
+        <item>Round Trip</item>
+        <item>Month Trip</item>
+        <item>Week Trip</item>
+    </string-array>
+    <string name="title_activity_profile">Profile</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>
